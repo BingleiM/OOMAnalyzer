@@ -1,0 +1,1497 @@
+{
+    "head": {
+        "protocol_ver": 1,
+        "phone": "iPad12,1",
+        "os_ver": "15.6.1",
+        "launch_time": 1673428263000,
+        "report_time": 1673428277186,
+        "app_uuid": "37dc9998e8d63b2e8990c21c38af017b"
+    },
+    "items": [
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 128 Bytes",
+            "size": "1.64 GB",
+            "count": 13763479,
+            "stacks": [
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@38460",
+                    "size": 1761614976,
+                    "count": 13762617,
+                    "frames": [
+                        "HexOrderOverviewModel.__allocating_init() (in MatrixDemo) (HexOrderOverviewModel.swift:0)",
+                        "closure #1 in OOMViewController.makeOOM(_:) (in MatrixDemo) (OOMViewController.swift:42)",
+                        "thunk for @escaping @callee_guaranteed () -> () (in MatrixDemo) (<compiler-generated>:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@176196",
+                    "size": 128,
+                    "count": 1,
+                    "frames": [
+                        "matrix_shouldlog (in MatrixDemo) (MatrixAdapter.mm:0)",
+                        "__51+[MatrixAppRebootAnalyzer notifyAppEnterForeground]_block_invoke (in MatrixDemo) (MatrixAppRebootAnalyzer.mm:275)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@26008",
+                    "size": 128,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:79)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@185168",
+                    "size": 128,
+                    "count": 1,
+                    "frames": [
+                        "+[WCDumpReportDataProvider getDumpReportDataWithDumpType:withDate:] (in MatrixDemo) (WCDumpReportDataProvider.mm:0)",
+                        "+[WCDumpReportDataProvider getAllTypeReportDataWithDate:] (in MatrixDemo) (WCDumpReportDataProvider.mm:106)",
+                        "__52-[WCCrashBlockMonitorPlugin reportAllLagFileOnDate:]_block_invoke (in MatrixDemo) (WCCrashBlockMonitorPlugin.mm:517)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@185192",
+                    "size": 128,
+                    "count": 1,
+                    "frames": [
+                        "+[WCDumpReportDataProvider getDumpReportDataWithDumpType:withDate:] (in MatrixDemo) (WCDumpReportDataProvider.mm:146)",
+                        "+[WCDumpReportDataProvider getAllTypeReportDataWithDate:] (in MatrixDemo) (WCDumpReportDataProvider.mm:106)",
+                        "__52-[WCCrashBlockMonitorPlugin reportAllLagFileOnDate:]_block_invoke (in MatrixDemo) (WCCrashBlockMonitorPlugin.mm:517)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@36300",
+                    "size": 128,
+                    "count": 1,
+                    "frames": [
+                        "specialized OOMViewController.makeOOM(_:) (in MatrixDemo) (OOMViewController.swift:47)",
+                        "@objc OOMViewController.makeOOM(_:) (in MatrixDemo) (<compiler-generated>:0)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@36300",
+                    "size": 128,
+                    "count": 1,
+                    "frames": [
+                        "specialized OOMViewController.makeOOM(_:) (in MatrixDemo) (OOMViewController.swift:47)",
+                        "@objc OOMViewController.makeOOM(_:) (in MatrixDemo) (<compiler-generated>:0)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@36300",
+                    "size": 128,
+                    "count": 1,
+                    "frames": [
+                        "specialized OOMViewController.makeOOM(_:) (in MatrixDemo) (OOMViewController.swift:47)",
+                        "@objc OOMViewController.makeOOM(_:) (in MatrixDemo) (<compiler-generated>:0)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 128.00 MiB",
+            "size": "128.00 MB",
+            "count": 1,
+            "stacks": [
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@36760",
+                    "size": 134217696,
+                    "count": 1,
+                    "frames": [
+                        "specialized _ContiguousArrayBuffer.init(_uninitializedCount:minimumCapacity:) (in MatrixDemo) (<compiler-generated>:0)",
+                        "specialized _ArrayBuffer._consumeAndCreateNew(bufferIsUnique:minimumCapacity:growForAppend:) (in MatrixDemo) (<compiler-generated>:0)",
+                        "closure #1 in OOMViewController.makeOOM(_:) (in MatrixDemo) (OOMViewController.swift:43)",
+                        "thunk for @escaping @callee_guaranteed () -> () (in MatrixDemo) (<compiler-generated>:0)"
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 8.00 KiB",
+            "size": "216.00 KB",
+            "count": 27
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 64 Bytes",
+            "size": "163.06 KB",
+            "count": 2609,
+            "stacks": [
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@289312",
+                    "size": 64,
+                    "count": 1,
+                    "frames": [
+                        "+[MatrixAppRebootInfo infoPath] (in MatrixDemo) (MatrixAppRebootAnalyzer.mm:65)",
+                        "-[MatrixAppRebootInfo saveInfo] (in MatrixDemo) (MatrixAppRebootAnalyzer.mm:59)",
+                        "__51+[MatrixAppRebootAnalyzer notifyAppEnterForeground]_block_invoke (in MatrixDemo) (MatrixAppRebootAnalyzer.mm:295)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@176160",
+                    "size": 64,
+                    "count": 1,
+                    "frames": [
+                        "matrix_shouldlog (in MatrixDemo) (MatrixAdapter.mm:33)",
+                        "__51+[MatrixAppRebootAnalyzer notifyAppEnterForeground]_block_invoke (in MatrixDemo) (MatrixAppRebootAnalyzer.mm:275)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20284",
+                    "size": 64,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:29)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:67)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@26036",
+                    "size": 64,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:79)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@372100",
+                    "size": 64,
+                    "count": 1,
+                    "frames": [
+                        "+[WCCrashBlockFileHandler hasCrashReport] (in MatrixDemo) (WCCrashBlockFileHandler.mm:91)",
+                        "__40-[WCCrashBlockMonitorPlugin reportCrash]_block_invoke (in MatrixDemo) (WCCrashBlockMonitorPlugin.mm:401)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@289204",
+                    "size": 64,
+                    "count": 1,
+                    "frames": [
+                        "-[MatrixAppRebootInfo saveInfo] (in MatrixDemo) (MatrixAppRebootAnalyzer.mm:59)",
+                        "__51+[MatrixAppRebootAnalyzer notifyAppEnterForeground]_block_invoke (in MatrixDemo) (MatrixAppRebootAnalyzer.mm:295)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@197124",
+                    "size": 64,
+                    "count": 1,
+                    "frames": [
+                        "-[WCFilterStackHandler loadStackFeat] (in MatrixDemo) (WCFilterStackHandler.mm:119)",
+                        "-[WCFilterStackHandler init] (in MatrixDemo) (WCFilterStackHandler.mm:104)",
+                        "-[WCBlockMonitorMgr threadProc] (in MatrixDemo) (WCBlockMonitorMgr.mm:546)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@197356",
+                    "size": 64,
+                    "count": 1,
+                    "frames": [
+                        "-[WCFilterStackHandler saveStackFeat] (in MatrixDemo) (WCFilterStackHandler.mm:126)",
+                        "-[WCFilterStackHandler loadStackFeat] (in MatrixDemo) (WCFilterStackHandler.mm:119)",
+                        "-[WCFilterStackHandler init] (in MatrixDemo) (WCFilterStackHandler.mm:104)",
+                        "-[WCBlockMonitorMgr threadProc] (in MatrixDemo) (WCBlockMonitorMgr.mm:546)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@36152",
+                    "size": 64,
+                    "count": 1,
+                    "frames": [
+                        "specialized OOMViewController.makeOOM(_:) (in MatrixDemo) (OOMViewController.swift:39)",
+                        "@objc OOMViewController.makeOOM(_:) (in MatrixDemo) (<compiler-generated>:0)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@36300",
+                    "size": 64,
+                    "count": 1,
+                    "frames": [
+                        "specialized OOMViewController.makeOOM(_:) (in MatrixDemo) (OOMViewController.swift:47)",
+                        "@objc OOMViewController.makeOOM(_:) (in MatrixDemo) (<compiler-generated>:0)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 32 Bytes",
+            "size": "158.62 KB",
+            "count": 5076,
+            "stacks": [
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20352",
+                    "size": 32,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:30)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:76)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@25720",
+                    "size": 32,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:67)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@176144",
+                    "size": 32,
+                    "count": 1,
+                    "frames": [
+                        "matrix_shouldlog (in MatrixDemo) (MatrixAdapter.mm:33)",
+                        "__51+[MatrixAppRebootAnalyzer notifyAppEnterForeground]_block_invoke (in MatrixDemo) (MatrixAppRebootAnalyzer.mm:275)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20432",
+                    "size": 32,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:32)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:67)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20352",
+                    "size": 32,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:30)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:67)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@25720",
+                    "size": 32,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:67)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@25848",
+                    "size": 32,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:72)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20352",
+                    "size": 32,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:30)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:83)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20432",
+                    "size": 32,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:32)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:76)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20432",
+                    "size": 32,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:32)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:83)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 48 Bytes",
+            "size": "138.42 KB",
+            "count": 2953,
+            "stacks": [
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@26008",
+                    "size": 48,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:79)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20396",
+                    "size": 48,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:31)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:67)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@25848",
+                    "size": 48,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:72)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@25848",
+                    "size": 48,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:72)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@25876",
+                    "size": 48,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:72)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20396",
+                    "size": 48,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:31)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:83)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@26008",
+                    "size": 48,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:79)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20396",
+                    "size": 48,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:31)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:76)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@26156",
+                    "size": 48,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:86)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@26156",
+                    "size": 48,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:86)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 4.00 KiB",
+            "size": "92.00 KB",
+            "count": 23
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 80 Bytes",
+            "size": "91.09 KB",
+            "count": 1166,
+            "stacks": [
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20396",
+                    "size": 80,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:31)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:67)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@25772",
+                    "size": 80,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:69)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 288 Bytes",
+            "size": "75.66 KB",
+            "count": 269,
+            "stacks": [
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@36300",
+                    "size": 288,
+                    "count": 1,
+                    "frames": [
+                        "specialized OOMViewController.makeOOM(_:) (in MatrixDemo) (OOMViewController.swift:47)",
+                        "@objc OOMViewController.makeOOM(_:) (in MatrixDemo) (<compiler-generated>:0)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20284",
+                    "size": 288,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:29)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:67)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20284",
+                    "size": 288,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:29)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:76)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20284",
+                    "size": 288,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:29)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:83)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 2.00 KiB",
+            "size": "70.00 KB",
+            "count": 35
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.98 KiB",
+            "size": "59.53 KB",
+            "count": 30
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 9.88 KiB",
+            "size": "59.25 KB",
+            "count": 6
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 8.23 KiB",
+            "size": "49.41 KB",
+            "count": 6
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 336 Bytes",
+            "size": "47.58 KB",
+            "count": 145
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 96 Bytes",
+            "size": "45.66 KB",
+            "count": 487,
+            "stacks": [
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@25772",
+                    "size": 96,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:69)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20396",
+                    "size": 96,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:31)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:67)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20396",
+                    "size": 96,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:31)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:67)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20352",
+                    "size": 96,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:30)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:67)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@25876",
+                    "size": 96,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:72)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20352",
+                    "size": 96,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:30)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:76)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20396",
+                    "size": 96,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:31)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:76)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20396",
+                    "size": 96,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:31)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:83)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20352",
+                    "size": 96,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:30)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:83)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@26036",
+                    "size": 96,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:79)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 112 Bytes",
+            "size": "41.67 KB",
+            "count": 381
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 512 Bytes",
+            "size": "36.50 KB",
+            "count": 73
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 16.00 KiB",
+            "size": "32.00 KB",
+            "count": 2
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.00 KiB",
+            "size": "31.00 KB",
+            "count": 31
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 144 Bytes",
+            "size": "29.81 KB",
+            "count": 212
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1008 Bytes",
+            "size": "28.55 KB",
+            "count": 29
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 8.86 KiB",
+            "size": "26.58 KB",
+            "count": 3
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 192 Bytes",
+            "size": "26.06 KB",
+            "count": 139
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 256 Bytes",
+            "size": "26.00 KB",
+            "count": 104
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 8.50 KiB",
+            "size": "25.50 KB",
+            "count": 3
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 3.00 KiB",
+            "size": "24.00 KB",
+            "count": 8
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 224 Bytes",
+            "size": "23.84 KB",
+            "count": 109
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 160 Bytes",
+            "size": "22.66 KB",
+            "count": 145
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.75 KiB",
+            "size": "21.00 KB",
+            "count": 12
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 368 Bytes",
+            "size": "19.05 KB",
+            "count": 53
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 384 Bytes",
+            "size": "18.75 KB",
+            "count": 50
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 16 Bytes",
+            "size": "18.53 KB",
+            "count": 1186,
+            "stacks": [
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@205708",
+                    "size": 16,
+                    "count": 1,
+                    "frames": [
+                        "-[WCMemoryRecordManager insertNewRecord:] (in MatrixDemo) (WCMemoryRecordManager.mm:63)",
+                        "-[WCMemoryStatPlugin start] (in MatrixDemo) (WCMemoryStatPlugin.mm:267)",
+                        "-[MatrixHandler installMatrix] (in MatrixDemo) (MatrixHandler.mm:87)",
+                        "main (in MatrixDemo) (main.mm:24)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20352",
+                    "size": 16,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:30)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:67)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@25848",
+                    "size": 16,
+                    "count": 1,
+                    "frames": [
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:72)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20352",
+                    "size": 16,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:30)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:76)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                },
+                {
+                    "caller": "37dc9998e8d63b2e8990c21c38af017b@20352",
+                    "size": 16,
+                    "count": 1,
+                    "frames": [
+                        "+[Utility genBigGreenButtonWithFrame:] (in MatrixDemo) (Utility.mm:30)",
+                        "-[ViewController setupView] (in MatrixDemo) (ViewController.mm:83)",
+                        "-[ViewController viewDidLoad] (in MatrixDemo) (ViewController.mm:57)",
+                        "main (in MatrixDemo) (main.mm:0)"
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 544 Bytes",
+            "size": "18.06 KB",
+            "count": 34
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 448 Bytes",
+            "size": "17.50 KB",
+            "count": 40
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 16.98 KiB",
+            "size": "16.98 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 656 Bytes",
+            "size": "16.66 KB",
+            "count": 26
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 208 Bytes",
+            "size": "15.44 KB",
+            "count": 76
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.11 KiB",
+            "size": "14.42 KB",
+            "count": 13
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 480 Bytes",
+            "size": "13.59 KB",
+            "count": 29
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 768 Bytes",
+            "size": "13.50 KB",
+            "count": 18
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 13.45 KiB",
+            "size": "13.45 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.91 KiB",
+            "size": "11.44 KB",
+            "count": 6
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 896 Bytes",
+            "size": "10.50 KB",
+            "count": 12
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 10.00 KiB",
+            "size": "10.00 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 4.94 KiB",
+            "size": "9.88 KB",
+            "count": 2
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.22 KiB",
+            "size": "9.75 KB",
+            "count": 8
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 464 Bytes",
+            "size": "9.52 KB",
+            "count": 21
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 272 Bytes",
+            "size": "8.50 KB",
+            "count": 32
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 8.44 KiB",
+            "size": "8.44 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 176 Bytes",
+            "size": "7.22 KB",
+            "count": 42
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 7.17 KiB",
+            "size": "7.17 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 6.97 KiB",
+            "size": "6.97 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 816 Bytes",
+            "size": "6.38 KB",
+            "count": 8
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 416 Bytes",
+            "size": "6.09 KB",
+            "count": 15
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 2.98 KiB",
+            "size": "5.97 KB",
+            "count": 2
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.45 KiB",
+            "size": "5.81 KB",
+            "count": 4
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 2.89 KiB",
+            "size": "5.78 KB",
+            "count": 2
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 736 Bytes",
+            "size": "5.75 KB",
+            "count": 8
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 528 Bytes",
+            "size": "5.67 KB",
+            "count": 11
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 5.00 KiB",
+            "size": "5.00 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.61 KiB",
+            "size": "4.83 KB",
+            "count": 3
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 4.78 KiB",
+            "size": "4.78 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 240 Bytes",
+            "size": "4.69 KB",
+            "count": 20
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 2.25 KiB",
+            "size": "4.50 KB",
+            "count": 2
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 4.42 KiB",
+            "size": "4.42 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.97 KiB",
+            "size": "3.94 KB",
+            "count": 2
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 3.92 KiB",
+            "size": "3.92 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 3.88 KiB",
+            "size": "3.88 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.77 KiB",
+            "size": "3.53 KB",
+            "count": 2
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 400 Bytes",
+            "size": "3.52 KB",
+            "count": 9
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 592 Bytes",
+            "size": "3.47 KB",
+            "count": 6
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 704 Bytes",
+            "size": "3.44 KB",
+            "count": 5
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 3.33 KiB",
+            "size": "3.33 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 672 Bytes",
+            "size": "3.28 KB",
+            "count": 5
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 320 Bytes",
+            "size": "3.12 KB",
+            "count": 10
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 3.03 KiB",
+            "size": "3.03 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 304 Bytes",
+            "size": "2.97 KB",
+            "count": 10
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 752 Bytes",
+            "size": "2.94 KB",
+            "count": 4
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 576 Bytes",
+            "size": "2.81 KB",
+            "count": 5
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 2.77 KiB",
+            "size": "2.77 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 2.58 KiB",
+            "size": "2.58 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 640 Bytes",
+            "size": "2.50 KB",
+            "count": 4
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 2.50 KiB",
+            "size": "2.50 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 2.19 KiB",
+            "size": "2.19 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 2.08 KiB",
+            "size": "2.08 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 2.03 KiB",
+            "size": "2.03 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.94 KiB",
+            "size": "1.94 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.92 KiB",
+            "size": "1.92 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 960 Bytes",
+            "size": "1.88 KB",
+            "count": 2
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 432 Bytes",
+            "size": "1.69 KB",
+            "count": 4
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 800 Bytes",
+            "size": "1.56 KB",
+            "count": 2
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 784 Bytes",
+            "size": "1.53 KB",
+            "count": 2
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.50 KiB",
+            "size": "1.50 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.44 KiB",
+            "size": "1.44 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.39 KiB",
+            "size": "1.39 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.34 KiB",
+            "size": "1.34 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 624 Bytes",
+            "size": "1.22 KB",
+            "count": 2
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.17 KiB",
+            "size": "1.17 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.16 KiB",
+            "size": "1.16 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 1.02 KiB",
+            "size": "1.02 KB",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 880 Bytes",
+            "size": "880.00 B",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 864 Bytes",
+            "size": "864.00 B",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 720 Bytes",
+            "size": "720.00 B",
+            "count": 1
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 352 Bytes",
+            "size": "704.00 B",
+            "count": 2
+        },
+        {
+            "tag": "iOS_MemStat",
+            "info": "",
+            "scene": "",
+            "name": "Malloc 608 Bytes",
+            "size": "608.00 B",
+            "count": 1
+        }
+    ]
+}
