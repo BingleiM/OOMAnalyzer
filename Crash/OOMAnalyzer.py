@@ -20,15 +20,6 @@ class OOMAnalyzer(object):
         self.appDsymPath = appDsymPath
 
     def run(self):
-        # if self.logFileUrl.find("http:") >= 0 or self.logFileUrl.find("https:") >= 0:
-        #     # 下载日志文件
-        #     downloadFilePath = "%s/%s" % (self.inputDir, "OOM.json")
-        #     downloadCMD = "wget %s -O %s" % (self.logFileUrl, downloadFilePath)
-        #     os.system(downloadCMD)
-        #     logFilePath = "%s/%s" % (self.inputDir, "OOM.json")
-        # else:
-        #     logFilePath = self.logFileUrl
-
         # 转换trace文件为json文件
         print("========转换log文件为json对象")
         logFilePath = self.logFileUrl
@@ -39,14 +30,6 @@ class OOMAnalyzer(object):
 
         # 解析数据
         self.parseLog(logJson)
-
-        # 保存数据
-        # outputPath = "%s/%s" % (self.inputDir, "Loads.xlsx")
-        # if os.path.exists(outputPath):
-        #     os.remove(outputPath)
-        # self.savePreviewInfoToExcel(logJson, outputPath)
-        # self.saveLogToExcelWithGroup(logJson, groupedData, outputPath)
-        # self.saveLogToExcel(logJson, outputPath)
 
         print("Done")
 
